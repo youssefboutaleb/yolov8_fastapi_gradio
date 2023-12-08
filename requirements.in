@@ -1,0 +1,7 @@
+fastapi
+loguru
+numpy
+pandas
+Pillow
+starlette
+ultralytics

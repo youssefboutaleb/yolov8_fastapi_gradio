@@ -1,15 +1,13 @@
 ####################################### IMPORT #################################
 import json
 
-import cv2
-from loguru import logger
-import sys
-from starlette.responses import Response, HTMLResponse
 
-from fastapi import FastAPI, APIRouter, File ,Request
-from fastapi.responses import StreamingResponse
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.exceptions import HTTPException
+from loguru import logger
+
+from starlette.responses import  HTMLResponse
+
+from fastapi import  APIRouter, File ,Request
+
 
 import io
 from PIL import Image

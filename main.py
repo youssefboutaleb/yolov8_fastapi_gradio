@@ -3,8 +3,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException, status, Request
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.templating import Jinja2Templates
-from loguru import logger
-from fastapi.exceptions import RequestValidationError
+
 from starlette.staticfiles import StaticFiles
 
 from detection_post import router, img_object_detection_to_img

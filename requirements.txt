@@ -1,0 +1,7 @@
+fastapi==0.104.1
+loguru==0.5.3
+numpy==1.26.2
+pandas==2.0.3
+Pillow==10.1.0
+starlette==0.33.0
+ultralytics==8.0.223

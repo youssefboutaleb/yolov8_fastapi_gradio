@@ -61,7 +61,7 @@ numpy==1.26.2
     #   seaborn
     #   torchvision
     #   ultralytics
-opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78
     # via ultralytics
 packaging==23.2
     # via matplotlib

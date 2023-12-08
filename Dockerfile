@@ -12,6 +12,13 @@ COPY . /app
 RUN python -m venv venv
 ENV PATH="/app/venv/bin:$PATH"
 
+# Install libgl1-mesa-glx and other dependencies
+RUN apt-get update -y && apt-get install -y \
+    libgl1-mesa-glx \
+    ffmpeg \
+    libsm6 \
+    libxext6
+
 # Install any needed packages specified in requirements.txt
 # These commands will use the binaries from the virtual environment
 RUN pip install --upgrade pip

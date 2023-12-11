@@ -2,7 +2,7 @@
 
 ---
 
-**A detailed tutorial covering the code in this repository:** [Coloring Black and White photos with Neural Networks](https://emilwallner.medium.com/colorize-b-w-photos-with-a-100-line-neural-network-53d9b4449f8d)
+**A detailed tutorial covering the code in this repository:** [Medium article :Developing a Custom YOLOv8 Model for Number Detection on Meters Using FastAPI and Gradio](https://medium.com/@youssefboutaleb.info/developingyolov8-custom-object-detection-with-fastapi-and-gradio-e9314fad0782)
 
 👉 Check out my [Huggingface app](https://huggingface.co/spaces/youssefboutaleb/Yolov8_meter) to test the model online. 
 

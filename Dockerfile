@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.13.0a2-slim
+FROM python:3.13.0b3-slim
 
 LABEL authors="YOUSSEF-BOUTALEB"
 

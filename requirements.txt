@@ -1,6 +1,6 @@
 loguru==0.5.3
 starlette==0.27.0
-fastapi==0.99.1
+fastapi==0.109.1
 Pillow==10.0.1
 pandas==2.1.1
 numpy==1.26.2
